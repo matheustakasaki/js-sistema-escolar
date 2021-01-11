@@ -1,0 +1,19 @@
+{
+  "name": "js-sistema-escolar",
+  "version": "1.0.0",
+  "description": "Sistema em Javascript para fixação de conhecimentos em orientação a objetos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheustakasaki/js-sistema-escolar.git"
+  },
+  "author": "taka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheustakasaki/js-sistema-escolar/issues"
+  },
+  "homepage": "https://github.com/matheustakasaki/js-sistema-escolar#readme"
+}
