@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/matheustakasaki/js-sistema-escolar/issues"
   },
-  "homepage": "https://github.com/matheustakasaki/js-sistema-escolar#readme"
+  "homepage": "https://github.com/matheustakasaki/js-sistema-escolar#readme",
+  "type": "module"
 }
