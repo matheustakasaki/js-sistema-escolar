@@ -1,5 +1,3 @@
-import { Aluno } from "./aluno.js";
-import { Professor } from "./professor.js";
 
 export class Materias {
     constructor(nome, professor, alunos, cargaHoraria){

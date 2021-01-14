@@ -1,14 +1,23 @@
-import { Materias } from "./materias.js";
 
 export class Aluno {
-    materias = new Materias("Português", "André", "José", "8h" );
-    
-    constructor (nome, cpf, matricula, materias){
+
+    constructor (nome, cpf, matricula){
         this.nome = nome;
         this._cpf = cpf;
         this._matricula = matricula;
-        this.materias = materias
     }
 
+    set aluno(novoAluno){
+        if (novoAluno instanceof Aluno) {
+            return this.novoAluno;
+        }
+    }
+
+    get aluno(){
+        return this.aluno;
+    }
     
+    get alunoCpf(){
+        return this._cpf= alunoCpf;
+    }
 }
