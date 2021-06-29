@@ -1,23 +1,18 @@
-
 export class Aluno {
+    nome;
+    cpf;
+    matricula;
+    _nota = -9;
 
-    constructor (nome, cpf, matricula){
-        this.nome = nome;
-        this._cpf = cpf;
-        this._matricula = matricula;
-    }
+    passar() {
+        // Early return para não receber valores negativos
+        if(this._nota < 0) return
 
-    set aluno(novoAluno){
-        if (novoAluno instanceof Aluno) {
-            return this.novoAluno;
+        // Condição para aprovação
+        if (this._nota >= 6) {
+            console.log(this.nome + ' passou! Top!');
+        } else {
+            console.log(this.nome + ' Reprovou :(');
         }
-    }
-
-    get aluno(){
-        return this.aluno;
-    }
-    
-    get alunoCpf(){
-        return this._cpf= alunoCpf;
     }
 }

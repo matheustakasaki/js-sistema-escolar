@@ -1,8 +1,12 @@
+import { Aluno } from "./aluno.js";
+
 export class Professor {
-    constructor (nome, cpf, salario, materia){
-        this.nome = nome;
-        this._cpf = cpf;
-        this._salario = salario;
-        this.materia = materia; 
+    nome;
+    aluno;
+    darNota(nota, aluno){
+        if (aluno instanceof Aluno) {
+            aluno._nota= nota;
+        }
+        console.log('O aluno é: ',aluno);
     }
 }
